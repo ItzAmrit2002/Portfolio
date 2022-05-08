@@ -40,7 +40,7 @@ function App() {
         </Routes>
       </>)
       : (<h1 style={{color: "white"}}>This website is currently under development and doesn't support
-      screens of width less than 768px</h1>)
+      screens of width less than 1024px</h1>)
     }
       
        
