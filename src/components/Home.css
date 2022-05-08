@@ -1,0 +1,120 @@
+.Typewriter__wrapper {
+    
+    color: turquoise;
+    font-weight: 600;
+    font-size: 3.2rem !important;
+}
+
+.Typewriter__cursor{
+    margin-left: 0 !important;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    background: #121212;
+}
+
+.home__left{
+    margin: 2.5rem;
+    display: flex;
+    margin-top: 5rem;
+    flex: 0.6;
+    gap: 0px;
+    flex-direction: column;
+    row-gap: 0px;
+    column-gap: 0px;
+    
+    
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+.home__right{
+    flex: 0.4;
+    margin: 0px 5rem;
+}
+.home__left span {
+    font-size: 3rem;
+    margin: 2px;
+    margin-left: 2rem;
+    padding: 2px;
+    font-family: Raleway;
+}
+
+@media (min-width: 1401px) and (max-width: 1920px) {
+  
+    .home__left span {
+        font-size: 3.5rem;
+        margin: 4px;
+        margin-left: 5rem;
+        padding: 2px;
+        font-family: Raleway;
+    }
+
+    .Typewriter__wrapper {
+    
+        color: turquoise;
+        font-weight: 600;
+        font-size: 3.8rem !important;
+    }
+
+    .home__left{
+        margin-top: 10rem;        
+    }
+    
+  }
+
+
+
+.button{
+    outline: none;
+    width: fit-content;
+    padding: 1rem 1.6rem;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #121212;
+    background-color: #00f962;
+    border: 1px solid #ffffff;
+    font-size: 0.85rem;
+    font-family: Merriweather;
+    transition: color 1s, background-color 1s, border 1s;
+    
+}
+
+.button:hover {
+    color: black;
+    background-color: #ffffff;
+    border: 1px solid #00f962
+}
+
+.media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.media__images{
+    object-fit: contain;
+    width: 4.5vw;
+    padding: 1rem;
+    cursor: pointer;
+}
+.media__images2{
+    object-fit: contain;
+    width: 5vw;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.elements{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+    align-items: center;
+}

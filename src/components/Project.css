@@ -1,0 +1,100 @@
+.hover__image{
+    object-fit: fill;
+    display: block;
+    width: 60vh;
+    border-radius: 1rem;
+    height: 40vh;
+}
+
+.project__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin-bottom: 2rem;
+}
+.left__{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 0.4;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right__{
+    display: flex;
+    flex: 0.6;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10vw;
+    
+}
+
+.right__ h2{
+    padding-bottom: 3vh;
+}
+
+.right__ p{
+    padding-bottom: 3vh;
+}
+
+.tags{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tags span{
+    font-size: 0.8rem;
+    padding: 8px 15px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin: 0 0.8rem;
+    cursor: pointer;
+    transition: background-color 1.5s;
+}
+
+.tags span:hover {
+    background-color: #fff;
+    color: black;
+}
+/* .left{
+    display: flex;
+    align-items: center;
+} */
+
+#figure{
+    border-radius: 1rem;
+}
+
+.right__{
+    color: #fff;
+}
+
+
+[class^='imghvr-'],
+[class*=' imghvr-'] {
+  background-color: #D14233;
+  
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.links h3{
+    padding-bottom: 1.2rem;
+}
+
+.links p{
+    border: 1px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 8px 15px;
+    margin-top: 1.2rem;
+}

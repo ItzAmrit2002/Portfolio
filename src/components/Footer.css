@@ -1,0 +1,40 @@
+.Footer p {
+    font-family: Merriweather;
+    /*To make it so when the browser is small The font changes!*/
+    font-size: 1.2vw;
+    color: grey;
+    padding: 0 0.75rem;
+  }
+  /*For the hover effect*/
+  .Footer p:hover {
+    font-family: Merriweather;
+    color: white;
+    cursor: pointer;
+  }
+  /*To Make it look nice and for positioning*/
+  .Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+  }
+
+  .Footer .footer__container{
+      display: flex;
+      justify-content: space-around;
+  }
+  /* To get rid of the margins */
+
+  /*To Make it look nice*/
+  .Footer a {
+    text-decoration: none;
+    color: grey;
+  } 
+  /*For the hover effect*/
+  .Footer a:hover {
+    color: white;
+    cursor: pointer;
+  }

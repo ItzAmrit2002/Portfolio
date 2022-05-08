@@ -1,0 +1,21 @@
+.projects__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Raleway;
+    text-align: center;
+    color: white;
+
+}
+
+.projects__container h1{
+    color: white;
+    margin: 5vh 5vw;
+    font-family: Merriweather !important;
+}
+
+hr{
+    width: 80%;
+    margin-bottom: 3rem;
+}
