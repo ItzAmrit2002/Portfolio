@@ -1,5 +1,7 @@
 import React from 'react'
 import './Footer.css'
+import {Link} from 'react-scroll'
+
 const Footer = () => {
   return (
     <div className="Footer">
@@ -12,15 +14,15 @@ const Footer = () => {
           <p>&nbsp;•&nbsp;</p>
           <p>All Rights Reserved</p>
           <p>&nbsp;•&nbsp;</p>
-          <p>Home</p>
+          <Link to="home" spy={true} smooth={true} offset={-100} duration={500}><p>Home</p></Link>
+          
           {/*Does Nothing*/}
           <p>&nbsp;•&nbsp;</p>
-          <p>Contact</p>
+          <Link to="contact" spy={true} smooth={true} offset={50} duration={500}><p>Contact</p></Link>
           {/*For the Bullet*/}
           <p>&nbsp;•&nbsp;</p>
           {/*Does nothing*/}
-          <p>About</p>
-          <p />
+          <Link to="about" spy={true} smooth={true} offset={0} duration={500}><p>About</p></Link>          <p />
         </footer>
         <p className='developer'>Developed and Designed By Amritendu</p>
       </div>

@@ -18,13 +18,16 @@
     justify-content: center;
     padding-top: 20px;
     align-items: center;
+    text-align: center;
     margin: 0;
     background-color: black;
   }
 
   .Footer .footer__container{
       display: flex;
-      justify-content: space-around;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
   }
   /* To get rid of the margins */
 
@@ -38,3 +41,6 @@
     color: white;
     cursor: pointer;
   }
+.developer{
+  font-family: Raleway !important;
+}

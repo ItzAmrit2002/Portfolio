@@ -21,7 +21,7 @@ const Contact = () => {
       }
     }, [controls, inView]);
   return (
-    <div className="contact">
+    <div className="contact" id='contact'>
         <motion.div className="container"
         ref={ref}
         animate={controls}
