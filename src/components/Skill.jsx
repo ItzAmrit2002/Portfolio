@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Skill.css'
 import Lottie from "react-lottie";
 // import react from '../assets/react.json'
@@ -6,6 +6,7 @@ import Lottie from "react-lottie";
 // import web3 from '../assets/web3.json'
 
 const Skill = ({slno, logo, title, details}) => {
+    const [width, setWidth] = useState(75)
     const defaultOptions = {
         loop: true,
         autoplay: true,
@@ -17,10 +18,28 @@ const Skill = ({slno, logo, title, details}) => {
         },
      };
 
+     useEffect(() => {
+        if(window.innerWidth > 1400)
+        {
+            setWidth(100)
+        }
+
+        window.addEventListener("resize", () => {
+        if(window.innerWidth < 1400)
+        {
+            setWidth(75)
+        }
+        if(window.innerWidth > 1400)
+        {
+            setWidth(100)
+        }
+          });
+      }, []);
+
   return (
     <div className='skill'>
         <div className="animation">
-            <Lottie options = {defaultOptions} height={75} width = {75}/>
+            <Lottie options = {defaultOptions} height={width} width = {width}/>
         </div>
         <div className="skill__container">
             <h2>

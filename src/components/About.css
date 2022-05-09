@@ -62,7 +62,7 @@
 }
 
 .left__container{
-    width: fit-content;
+    width: 90%;
     height: fit-content;
     display: flex;
     align-items: flex-start;

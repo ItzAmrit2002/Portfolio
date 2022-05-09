@@ -46,28 +46,6 @@
     font-family: Raleway;
 }
 
-@media (min-width: 1401px) and (max-width: 1920px) {
-  
-    .home__left span {
-        font-size: 3.5rem;
-        margin: 4px;
-        margin-left: 5rem;
-        padding: 2px;
-        font-family: Raleway;
-    }
-
-    .Typewriter__wrapper {
-    
-        color: turquoise;
-        font-weight: 600;
-        font-size: 3.8rem !important;
-    }
-
-    .home__left{
-        margin-top: 10rem;        
-    }
-    
-  }
 
 
 
@@ -118,3 +96,42 @@
     justify-content: space-around;
     align-items: center;
 }
+
+@media (min-width: 1401px) and (max-width: 1920px) {
+  
+    .home__left span {
+        font-size: 3.5rem;
+        margin: 4px;
+        margin-left: 5rem;
+        padding: 2px;
+        font-family: Raleway;
+    }
+
+    .Typewriter__wrapper {
+    
+        color: turquoise;
+        font-weight: 600;
+        font-size: 3.8rem !important;
+    }
+
+    .home__left{
+        margin-top: 10rem;        
+    }
+    .media__images{
+        object-fit: contain;
+        width: 3.5vw;
+        padding: 1rem;
+        cursor: pointer;
+    }
+    .media__images2{
+        object-fit: contain;
+        width: 4.5vw;
+        padding: 1rem;
+        cursor: pointer;
+    }
+
+    .home{
+        padding-bottom: 10vh;
+    }
+    
+  }
