@@ -36,15 +36,15 @@ const Navbar = () => {
         <div className='navbar__container'>
             <ul>
                 <li>
-                    <Link to="home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
+                    <Link to="home" spy={true} smooth={true} offset={-100} duration={750}>Home</Link>
                     <div className='bar'></div>
                 </li>
                 <li>
-                    <Link to="about" spy={true} smooth={true} offset={0} duration={500}>About</Link> 
+                    <Link to="about" spy={true} smooth={true} offset={0} duration={750}>About</Link> 
                     <div className='bar'></div>
                 </li>
                 <li>
-                    <Link to="projects" spy={true} smooth={true} offset={-10} duration={500}>Projects</Link>
+                    <Link to="projects" spy={true} smooth={true} offset={-10} duration={750}>Projects</Link>
                     <div className='bar'></div>
                 </li>
                 
@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
 
         <span>
-        <Link to="contact" spy={true} smooth={true} offset={50} duration={500}><h4 className='c_button'>Contact</h4></Link>
+        <Link to="contact" spy={true} smooth={true} offset={50} duration={750}><h4 className='c_button'>Contact</h4></Link>
             
         </span>
     </motion.div>
