@@ -3,11 +3,11 @@ import Typewriter from 'typewriter-effect'
 import Lottie from "react-lottie";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import {Link} from 'react-scroll'
 import data2 from '../assets/data2.json'
 import github2 from '../assets/github2.png'
 import gmail2 from '../assets/gmail2.png'
 import linkedin2 from '../assets/linkedin2.png'
-import { Link } from "react-router-dom";
 import './Home.css'
 
 const Home = () => {
@@ -68,9 +68,11 @@ const Home = () => {
             </div>
             
             <div className='elements'>
+            <Link to="contact" spy={true} smooth={true} offset={50} duration={1000}>
                 <button className='button' type='button'>
                     Contact Me 
                 </button>
+                </Link>
 
                 <div className='media'>
                     <a href="https://github.com/ItzAmrit2002" target="_blank"><img src={github2} className='media__images' alt='github'/></a>
