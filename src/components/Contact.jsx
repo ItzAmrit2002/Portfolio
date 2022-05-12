@@ -84,13 +84,13 @@ const Contact = () => {
           </div>
           <div className="col-md-6 col-sm-12">
             <div className="styled-input">
-              <input type="text" required name='email'/>
+              <input type="email" required name='email'/>
               <label>Email</label> 
             </div>
           </div>
           <div className="col-md-6 col-sm-12">
             <div className="styled-input" style={{float: 'right'}}>
-              <input type="text" required name='number'/>
+              <input type="number" required name='number'/>
               <label>Phone Number</label> 
             </div>
           </div>
