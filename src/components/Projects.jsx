@@ -47,7 +47,7 @@ const Projects = () => {
         <div className='projects__work'>
             <Project image={amazon}  title="Amazon Clone" description="It is clone of the Amazon India Website build Using React Js with properly functioning Login, Resgister and Cart functionalities. It contains the implementation of Firebase Authentication and React Context API." tags={["ReactJs", "Context API", "Firebase Auth"]} link="https://github.com/ItzAmrit2002/Amazon-Clone"/>
             <Project image={cloudwaves}  title="Cloud Waves" description="It is an E-commerce platform built using NextJs. It has fully funtioning Cart application with the implementation of Sanity.io.Also there is use of React Context API." tags={["NextJs", "Context API", "Sanity.io"]} link="https://github.com/ItzAmrit2002/Cloud-Waves-E-commerce-platform"/>
-            <Project image={goals}  title="My Goal Setter" description="It is a full stack Goal Setter App with use of CRUD functionalities using ReactJs, NodeJs, Express and MongoDB." tags={["ReactJs", "Context API", "NodeJs", "MongoDB"]} link="https://github.com/ItzAmrit2002/MyGoals-Goal-Setter"/>
+            <Project image={goals}  title="My Goal Setter" description="It is a full stack Goal Setter App with use of CRUD functionalities using ReactJs, NodeJs, Express and MongoDB." tags={["ReactJs", "React Redux", "NodeJs", "MongoDB"]} link="https://github.com/ItzAmrit2002/MyGoals-Goal-Setter"/>
         </div>
     </div>
   )
