@@ -58,7 +58,7 @@ const Home = () => {
             </span>
             <Typewriter
                 options={{
-                    strings: ['Student', 'Web Developer', 'Blockchain Developer'],
+                    strings: ['Student', 'Web Developer', 'Blockchain Enthusiast'],
                     autoStart: true,
                     loop: true,
                     pauseFor: 2000,

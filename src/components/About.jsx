@@ -55,7 +55,7 @@ const About = () => {
                   initial="hidden"
                   variants={newVariants}
                   transition={{delay : 1, duration : 1}}>
-                  <Skill slno={"03"} logo={web3} title={"Blockchain Development"} details={"Solidity, web3Js, EtherJs, Ganache, Truffle"}/>
+                  <Skill slno={"03"} logo={web3} title={"Blockchain Development"} details={"Solidity, web3Js, Ganache, Truffle"}/>
                   </motion.div>
                 
                 </motion.div>
