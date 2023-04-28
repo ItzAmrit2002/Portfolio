@@ -74,7 +74,7 @@ const About = () => {
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolor earum mollitia labore, unde amet soluta voluptates quos deserunt sapiente.
                     </p>
-                    <a href="https://drive.google.com/file/d/1lOyHFVKM5u5ZrDIHVzZgXFGemE1lKpZI/view?usp=sharing" target="_blank"><button>Resume</button></a>
+                    <a href="https://drive.google.com/file/d/1-TOTRFtcfPeo0s2c7XMEmifyLGkRM1QQ/view?usp=sharing" target="_blank"><button>Resume</button></a>
                 </motion.div>
             </div>
         </div>
