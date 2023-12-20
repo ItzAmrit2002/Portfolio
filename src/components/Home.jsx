@@ -30,15 +30,34 @@ const Home = () => {
         {
             setWidth(650)
         }
-
-        window.addEventListener("resize", () => {
-        if(window.innerWidth < 1400)
+        else if(window.innerWidth < 1401 && window.innerWidth > 1103)
         {
             setWidth(420)
         }
+        else if(window.innerWidth < 1104 && window.innerWidth > 949)
+        {
+            setWidth(350)
+        }
+        else{
+            setWidth(300)
+        }
+
+        window.addEventListener("resize", () => {
+        
         if(window.innerWidth > 1400)
         {
             setWidth(650)
+        }
+        else if(window.innerWidth < 1401 && window.innerWidth > 1103)
+        {
+            setWidth(420)
+        }
+        else if(window.innerWidth < 1104 && window.innerWidth > 949)
+        {
+            setWidth(350)
+        }
+        else{
+            setWidth(300)
         }
           });
       }, []);
@@ -58,7 +77,7 @@ const Home = () => {
             </span>
             <Typewriter
                 options={{
-                    strings: ['Student', 'Web Developer', 'Blockchain Enthusiast'],
+                    strings: ['Student', 'Web Developer', 'ML Enthusiast'],
                     autoStart: true,
                     loop: true,
                     pauseFor: 2000,

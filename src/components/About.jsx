@@ -9,7 +9,7 @@ import web3 from '../assets/web3.json'
 
 const squareVariants = {
     visible: { opacity: 1, y: 0, transition: {delay:1.5, duration: 1 } },
-    hidden: { opacity: 0, y: "-100%"}
+    hidden: { opacity: 0, y: "-45%"}
   };
 const newVariants = {
   visible: {opacity: 1, scale: 1},

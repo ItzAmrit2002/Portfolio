@@ -119,19 +119,132 @@
     }
     .media__images{
         object-fit: contain;
-        width: 3.5vw;
+        width: 6rem;
         padding: 1rem;
         cursor: pointer;
     }
     .media__images2{
         object-fit: contain;
-        width: 4.5vw;
+        width: 5rem;
         padding: 1rem;
         cursor: pointer;
     }
 
     .home{
         padding-bottom: 10vh;
+    }
+    
+  }
+  /* @media (min-width: 768px) and (max-width: 1204px){
+    .home__right{
+        height: 0;
+        display: none;
+        width: 0;
+    }
+    .home__left span {
+        font-size: 1.5rem;
+        margin: 2px;
+        margin-left: 1rem;
+        padding: 0.5px;
+        font-family: Raleway;
+    }
+
+    .Typewriter__wrapper {
+    
+        color: turquoise;
+        font-weight: 600;
+        font-size: 1.8rem !important;
+    }
+  } */
+  @media (min-width: 950px) and (max-width: 1103px)
+  {
+    .home__left span{
+        font-size: 40px;
+        margin-left: 1rem;
+        padding: 0.5px;
+        font-family: Raleway;
+    }
+    .Typewriter__wrapper
+    {
+        font-size: 43px !important;
+    }
+    .media__images{
+        width: 4rem;
+    }
+    .media__images2{
+        width: 6rem;
+    }
+    .button{
+        font-size: 1rem;
+    }
+
+  }
+  @media (min-width: 768px) and (max-width: 949px){
+    .home__left span{
+        font-size: 37px;
+        margin-left: 1rem;
+        padding: 0.5px;
+        font-family: Raleway;
+    }
+    .Typewriter__wrapper
+    {
+        font-size: 40px !important;
+    }
+    .home{
+        justify-content: space-between;
+    }
+    .home__left{
+        margin-right: 0;
+    }
+    .home__right{
+        margin-left: 0;
+    }
+    .media__images{
+        width: 3rem;
+    }
+    .media__images2{
+        width: 5rem;
+    }
+    .button{
+        font-size: 1rem;
+    }
+  }
+  @media (max-width: 767px)
+  {
+    .home__left{
+        margin:1rem 0.5rem;
+        width: 100%;
+    }
+    .home__right{
+        height: 0;
+        display: none;
+        width: 0;
+    }
+    .home__left span{
+        font-size: 3.2rem;
+        padding: 0.5px;
+        font-family: Raleway;
+    }
+    .home{
+        display: block;
+        align-items: flex-start;
+        width: 100%;
+    }
+    .Typewriter__wrapper
+    {
+        font-size: 3rem !important;
+    }
+    .elements{
+        margin: 0.5rem;
+    }
+    .media__images{
+        width: 5rem;
+    }
+    .media__images2{
+        width: 7rem;
+    }
+    .button{
+        font-size: 1rem;
     }
     
   }

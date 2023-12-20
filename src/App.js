@@ -26,8 +26,7 @@ function App() {
   return (
     <Router>
     <div className="app">
-      {window.innerWidth > 1024 || home_content ? (
-      <>
+      
        <Navbar/>
         <Home/>
         <About/>
@@ -38,10 +37,9 @@ function App() {
 
 
         </Routes>
-      </>)
-      : (<h1 style={{color: "white"}}>This website is currently under development and doesn't support
-      screens of width less than 1024px.</h1>)
-    }
+      
+      
+    
       
        
 
