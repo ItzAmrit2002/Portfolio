@@ -16,7 +16,7 @@
 .navbar__container{
     display: flex;
     list-style: none;
-
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     margin: 0;
@@ -119,7 +119,7 @@
     border-radius: 50%;
 }
 
-@media (max-width: 769px){
+@media screen and (max-width: 769px){
 
     .hamburger-menu{
         display: block;
@@ -140,7 +140,7 @@
     z-index: 10;
     top: 0vh;
     right: -300px;
-    width: 300px;
+    width: 0px;
     height: 100vh;
     /* background: #060621cd; */
     background-color: rgba(33, 33, 33, 1);
@@ -151,6 +151,7 @@
 
       .navbar__container.active{
         right: 0px;
+        width: 300px;
       }
       .navbar__container li {
         list-style: none;

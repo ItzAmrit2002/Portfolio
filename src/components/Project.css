@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     margin-bottom: 2rem;
 }
 .left__{
@@ -99,7 +99,7 @@
     margin-top: 1.2rem;
 }
 
-@media (min-width: 1401px) and (max-width: 1920px) {
+@media screen and (min-width: 1400px) and (max-width: 1920px) {
     .hover__image{
         object-fit: fill;
         display: block;
@@ -113,12 +113,63 @@
     }
 }
 
-@media (max-width: 1400px)
+@media screen and (max-width: 1399px)
 {
     .hover__image{
         
         width: 35vh;
         
         height: 25vh;
+    }
+    .right__{
+        margin-right: 2.5rem;
+    }
+}
+@media screen and (max-width: 992px)
+{
+    .hover__image{
+        
+        width: 30vh;
+        
+        height: 20vh;
+    }
+    .right__{
+        margin-right: 2.5rem;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .project__container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        margin-bottom: 2rem;
+        border-bottom: 1px solid grey;
+        padding-bottom: 1rem;
+    }
+    .hover__image{
+        
+        width: 25vh;
+        
+        height: 15vh;
+    }
+    .left__{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .right__{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .right__ p{
+        padding: 1.5rem;
+    }
+    .right__ h2{
+        margin-top: 1rem;
+        text-decoration: underline;
     }
 }

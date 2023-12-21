@@ -26,41 +26,29 @@ const Home = () => {
      };
 
      useEffect(() => {
-        if(window.innerWidth > 1400)
-        {
-            setWidth(650)
-        }
-        else if(window.innerWidth < 1401 && window.innerWidth > 1103)
-        {
-            setWidth(420)
-        }
-        else if(window.innerWidth < 1104 && window.innerWidth > 949)
-        {
-            setWidth(350)
-        }
-        else{
-            setWidth(300)
-        }
-
-        window.addEventListener("resize", () => {
-        
-        if(window.innerWidth > 1400)
-        {
-            setWidth(650)
-        }
-        else if(window.innerWidth < 1401 && window.innerWidth > 1103)
-        {
-            setWidth(420)
-        }
-        else if(window.innerWidth < 1104 && window.innerWidth > 949)
-        {
-            setWidth(350)
-        }
-        else{
-            setWidth(300)
-        }
-          });
-      }, []);
+        const handleResize = () => {
+          if (window.innerWidth > 1400) {
+            setWidth(650);
+            console.log(window.innerWidth);
+          } else if (window.innerWidth < 1401 && window.innerWidth > 1103) {
+            setWidth(420);
+            console.log(window.innerWidth);
+          } else if (window.innerWidth < 1104 && window.innerWidth > 949) {
+            setWidth(350);
+            console.log(window.innerWidth);
+          } else {
+            setWidth(300);
+            console.log(window.innerWidth);
+          }
+        };
+      
+        window.addEventListener('resize', handleResize);
+      
+        // Cleanup event listener
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, [window.innerWidth]);
     return (
     <div className='home' id='home'>
         <motion.div className='home__left'

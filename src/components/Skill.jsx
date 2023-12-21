@@ -18,23 +18,48 @@ const Skill = ({slno, logo, title, details}) => {
         },
      };
 
-     useEffect(() => {
-        if(window.innerWidth > 1400)
-        {
-            setWidth(100)
-        }
+    //  useEffect(() => {
+    //     if(window.innerWidth > 1400)
+    //     {
+    //         setWidth(100)
+    //     }
 
-        window.addEventListener("resize", () => {
-        if(window.innerWidth < 1400)
-        {
-            setWidth(75)
-        }
-        if(window.innerWidth > 1400)
-        {
-            setWidth(100)
-        }
-          });
-      }, []);
+    //     window.addEventListener("resize", () => {
+    //     if(window.innerWidth < 1400)
+    //     {
+    //         setWidth(75)
+    //     }
+    //     if(window.innerWidth > 1400)
+    //     {
+    //         setWidth(100)
+    //     }
+    //       });
+    //   }, []);
+    useEffect(() => {
+        const handleResize = () => {
+                
+                if(window.innerWidth > 1400)
+                {
+                    setWidth(100)
+                }
+                else if(window.innerWidth < 1400 && window.innerWidth > 992)
+                {
+                    setWidth(75)
+                }
+                else if(window.innerWidth < 993)
+                {
+                    setWidth(100)
+                }
+
+        };
+      
+        window.addEventListener('resize', handleResize);
+      
+        // Cleanup event listener
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+      }, [window.innerWidth]);
 
   return (
     <div className='skill'>

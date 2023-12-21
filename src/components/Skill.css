@@ -42,7 +42,7 @@
     padding: 0.5rem 0;
 }
 
-@media (min-width: 1401px) and (max-width: 1920px) {
+@media screen and (min-width: 1401px) and (max-width: 1920px) {
     .skill__container h2{
         font-size: 1.4rem;
         padding: 0.5rem 0;
@@ -50,6 +50,20 @@
     
     .skill__container p{
         font-size: 0.9rem;
+        padding: 0.5rem 0;
+    }
+}
+@media screen and (max-width: 992px){
+    .skill{
+        width: 80vw;
+    }
+    .skill__container h2{
+        font-size: 1.5rem;
+        padding: 0.5rem 0;
+    }
+    
+    .skill__container p{
+        font-size: 1.1rem;
         padding: 0.5rem 0;
     }
 }
