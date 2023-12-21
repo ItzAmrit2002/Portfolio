@@ -6,6 +6,7 @@ import { useInView } from "react-intersection-observer";
 import react from '../assets/react.json'
 import node from '../assets/node.json'
 import web3 from '../assets/web3.json'
+import ml from '../assets/ml.json'
 
 const squareVariants = {
     visible: { opacity: 1, y: 0, transition: {delay:1.5, duration: 1 } },
@@ -55,7 +56,7 @@ const About = () => {
                   initial="hidden"
                   variants={newVariants}
                   transition={{delay : 1, duration : 1}}>
-                  <Skill slno={"03"} logo={web3} title={"Blockchain Development"} details={"Solidity, web3Js, Ganache, Truffle"}/>
+                  <Skill slno={"03"} logo={ml} title={"Machine Learning"} details={"Python, Numpy, Pandas, Scikit-learn"}/>
                   </motion.div>
                 
                 </motion.div>
@@ -74,7 +75,7 @@ const About = () => {
                     <p>
                         I am a final year Computer Science student at Netaji Subhash Engineering College, Kolkata. Throughout my academic journey, I have gained extensive expertise in web development, specifically in the MERN stack. I have completed several projects in this field, showcasing my proficiency in various programming languages and frameworks such as C, C++, Java, Python, and Javascript. My passion lies in utilizing innovative technologies to solve real-world problems, and I am eager to find opportunities where I can apply my skills, expand my knowledge, and continue learning.
                     </p>
-                    <a href="https://drive.google.com/file/d/1BbuuxBzGatOGmTb-kNAYh33jDoyVS_lK/view?usp=sharing" target="_blank"><button>Resume</button></a>
+                    <a href="https://drive.google.com/file/d/1RyV8Zc2oL35XOSnVFuk7a9wRENbm1ebG/view?usp=sharing" target="_blank"><button>Resume</button></a>
                 </motion.div>
             </div>
         </div>
