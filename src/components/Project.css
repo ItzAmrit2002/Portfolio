@@ -173,3 +173,22 @@
         text-decoration: underline;
     }
 }
+@media screen and (max-width: 500px)
+{
+    .project__container{
+        margin: 0;
+    }
+    .right__ p{
+        padding: 1.5rem;
+        font-size: 0.8rem;
+    }
+    .right__ h2{
+        margin-top: 1rem;
+        text-decoration: underline;
+        font-size: 1.1rem;
+    }
+    .tags span{
+        font-size: 0.5rem;
+        margin: 0 0.5rem;
+    }
+}

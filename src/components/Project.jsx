@@ -24,12 +24,12 @@ const Project = ({image, title, description, tags, link}) => {
     }, [controls, inView]);
   return (
     <div className="project__container">
-        <motion.div className="left__" 
-        ref={ref}
-        animate={controls}
-        initial="hidden"
-        variants={newVariants}
-        transition={{delay : 0.2, duration : 1}}
+        <div className="left__" 
+        // ref={ref}
+        // animate={controls}
+        // initial="hidden"
+        // variants={newVariants}
+        // transition={{delay : 0.2, duration : 1}}
         >
         <motion.figure class="imghvr-flip-horiz" id='figure'
         whileHover={{
@@ -48,12 +48,12 @@ const Project = ({image, title, description, tags, link}) => {
           </figcaption>
           <a href={link} target="_blank"></a>
         </motion.figure>
-        </motion.div>
-        <motion.div className="right__"
-        ref={ref}
-        animate={controls}
-        initial="hidden"
-        variants={squareVariants}
+        </div>
+        <div className="right__"
+        // ref={ref}
+        // animate={controls}
+        // initial="hidden"
+        // variants={squareVariants}
         >
           <h2>{title}</h2>
           <p>{description}</p>
@@ -66,7 +66,7 @@ const Project = ({image, title, description, tags, link}) => {
             <span>Context API</span> */}
           </div>
           
-        </motion.div>
+        </div>
     </div>
   )
 }
