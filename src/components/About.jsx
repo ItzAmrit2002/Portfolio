@@ -75,7 +75,7 @@ const About = () => {
                     <p>
                         I am a final year Computer Science student at Netaji Subhash Engineering College, Kolkata. Throughout my academic journey, I have gained extensive expertise in web development, specifically in the MERN stack. I have completed several projects in this field, showcasing my proficiency in various programming languages and frameworks such as C, C++, Java, Python, and Javascript. My passion lies in utilizing innovative technologies to solve real-world problems, and I am eager to find opportunities where I can apply my skills, expand my knowledge, and continue learning.
                     </p>
-                    <a href="https://drive.google.com/file/d/1RyV8Zc2oL35XOSnVFuk7a9wRENbm1ebG/view?usp=sharing" target="_blank"><button>Resume</button></a>
+                    <a href="https://drive.google.com/file/d/1yWVl0IunVFSU87WXzYxxfdjstsBGzXse/view?usp=sharing" target="_blank"><button>Resume</button></a>
                 </motion.div>
             </div>
         </div>
